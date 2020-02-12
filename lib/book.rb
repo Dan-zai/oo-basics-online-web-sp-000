@@ -1,18 +1,38 @@
-  def name=(dog_name)
-    @name = dog_name
-  end 
-  
-  def name
-    @name
-  end 
-  
-  def breed=(breed)
-    @breed = dog_breed
-  end 
-  
-  def breed
-    @breed
-  end 
-  
+  class Book
+  def initialize(title)
+    @title = title
+  end
+ 
+  def title
+    @title
+  end
+ 
+  def author=(author)
+    @author = author
+  end
+ 
+  def author
+    @author
+  end
+ 
+  def page_count=(num)
+    @page_count = num
+  end
+ 
+  def page_count
+    @page_count
+  end
+ 
+  def genre=(genre)
+    @genre = genre
+  end
+ 
+  def genre
+    @genre
+  end
+ 
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
+ 
 end
-
