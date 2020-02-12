@@ -1,14 +1,18 @@
-class Book
+  def name=(dog_name)
+    @name = dog_name
+  end 
   
-  attr_accessor :title
-  attr_accessor :author
-  attr_accessor :genre
+  def name
+    @name
+  end 
   
+  def breed=(breed)
+    @breed = dog_breed
+  end 
   
+  def breed
+    @breed
+  end 
   
-  def initialize(title)
-    @title = title
-end
-
 end
 
